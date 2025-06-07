@@ -4,26 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de mí</title>
-    <link rel="stylesheet" href="./archivos/styleCSS.css">
+    <link rel="stylesheet" href="./styleCSS.css" />
 </head>
 <body>
-    <header class="main-header">
+    <header class="container">
         <h1>¿Quién soy?</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./about.html">Sobre mí</a></li>
+                <li><a href="./topic.html">Pasiones y temas de Interés</a></li>
+                <li><a href="./grado.html">Estudios</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+                <li><a href="./net.html">Mi Red</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav class="nav-bar">
-        <ul class="menu">
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./about.html">Sobre mí</a></li>
-            <li><a href="./topic.html">Pasiones y temas de Interés</a></li>
-            <li><a href="./grado.html">Estudios</a></li>
-            <li><a href="./contact.html">Contacto</a></li>
-            <li><a href="./net.html">Mi Red</a></li>
-            
-        </ul>
-    </nav>
-
-    <main class="contenido">
+    <main class="container">
         <section class="intro">
             <h2>¡Un gustooo! Soy Mauricio Vásquez</h2>
             <p>Gracias por visitar esta sección. Aquí comparto un poco sobre mi trayectoria, aficiones y cómo puedes ponerte en contacto conmigo.</p>
@@ -41,17 +39,17 @@
         <section class="cv-sección">
             <h3>Currículum en PDF</h3>
             <p>Puedes revisar mi CV actualizado haciendo clic en el enlace siguiente:</p>
-            <a href="images/CV.pdf" class="boton-Descargar" download>Ver CV</a>
+            <a href="../images/CV.pdf" class="boton-Descargar" download>Ver CV</a>
         </section>
 
         <section class="photo-showcase">
             <h3>Algunas fotos para conocerme</h3>
             <p>Además de algunas de mis pasiones: </p>
-            <div class="espacio-fotos">
-                <img src="./images/guitarra.jpeg" alt="Imagen 1" class="photo">
-                <img src="./images/realMadrid.jpeg" alt="Imagen 2" class="photo">
-                <img src="./images/Suizasky.jpeg" alt="Imagen 3" class="photo">
-                <img src="./images/flow.jpeg" alt="Imagen 4" class="photo">
+            <div class="galeria">
+                <img src="../images/guitarra.jpeg" alt="Imagen 1">
+                <img src="../images/realMadrid.jpeg" alt="Imagen 2">
+                <img src="../images/Suizasky.jpeg" alt="Imagen 3">
+                <img src="../images/flow.jpeg" alt="Imagen 4">
             </div>
         </section>
 
@@ -65,8 +63,8 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <p>&copy; 2024 Portafolio Web | Diseñado con pasión </p>
+    <footer class="footer_section">
+        <p>&copy; 2024 Portafolio Web | Diseñado con pasión por Mauricio Vásquez</p>
     </footer>
 </body>
 </html>
